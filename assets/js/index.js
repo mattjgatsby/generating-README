@@ -42,6 +42,11 @@ const questions = [
         message: 'List any collaborators, if any:'
     },
     {
+        type: 'input',
+        name: 'test',
+        message: 'what did you use to test?'
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Pick which license to use:',

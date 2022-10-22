@@ -61,6 +61,9 @@ function generateMarkdown(answers) {
   
   ## Usage
   ${answers.usage}
+
+  #Testing
+  ${answers.test}
   
   ## Credits
   ${answers.credits}
