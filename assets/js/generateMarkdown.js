@@ -63,7 +63,8 @@ function generateMarkdown(answers) {
   ## Author Links
   [GitHub](https://github.com/${answers.github})
   
-If you have any questions you can reach me at ${answers.email}.
+  ## Questions
+  If you have any questions you can reach me at ${answers.email}.
 `;
 }
 
