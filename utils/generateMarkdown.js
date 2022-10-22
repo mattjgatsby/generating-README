@@ -17,7 +17,12 @@ function generateMarkdown(answers) {
   ${answers.description} 
   
   ## Table of Contents
-  ${answers.table}
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
   ## Installation
   ${answers.install}
@@ -25,11 +30,13 @@ function generateMarkdown(answers) {
   ## Usage
   ${answers.usage}
   
+  ## License
+  ${answers.licnese}
+
   ## Credits
   ${answers.credits}
   
-  ## License
-  ${answers.licnese}
+
 `;
 }
 
