@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  switch(data.license) {
+function renderLicenseBadge(answers) {
+  switch(answers.license) {
     case "Apache 2.0":
       return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
     case "Boost Software License 1.0":
@@ -42,7 +42,11 @@ function generateMarkdown(answers) {
   ${answers.description} 
 
   ## License
-  ${answers.licnese}
+  ${answers.license}
+  ${renderLicenseBadge(answers)}
+
+  
+
   
   ## Table of Contents
   * [Installation](#installation)
