@@ -12,6 +12,16 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'github',
+        message: 'What is your GitHub Username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        messgae: 'What is your Email address?'
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Please enter a description of your application:',
       
@@ -40,11 +50,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile('Gen-README.md', generateMarkdown(answers) , (err) => 
-    err ? console.error(err) : console.log(data)
-);
-}
+// function writeToFile(fileName, data) {
+//     fs.writeFile('Gen-README.md', generateMarkdown(answers) , (err) => 
+//     err ? console.error(err) : console.log(data)
+// );
+// }
 
 // TODO: Create a function to initialize app
 function init() {
