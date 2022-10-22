@@ -1,10 +1,10 @@
-# Generate README files
+# Generating README
   ## Description
-  Create a readme file using node.js 
+  Creates a readme.md file for your applications 
 
   ## License
-  GNU GPL v3
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  None
+  
 
   
 
@@ -18,13 +18,13 @@
   * [Questions](#questions)
   
   ## Installation
-  npm install
+  npm install, the package.json include the needed dependences 
   
   ## Usage
-  use this application to dynamically create a readmefile
+  use whenever a readme.md file is needed for your application
 
   ## Testing
-  npm
+  N/A
   
   ## Credits
   N/A
@@ -32,4 +32,5 @@
   ## Author Links
   [GitHub](https://github.com/mattjgatsby)
   
-If you have any questions you can reach me at mattjgatsby@gmail.com.
+  ## Questions
+  If you have any questions you can reach me at mattjgatsby@gmail.com.
