@@ -2,6 +2,8 @@
   ## Description
   This app is a node based program that allows you to generate a readme file.  
 
+[Watch the demo!](https://watch.screencastify.com/v/uCdLbV1mmxlzKL6IjLSF)
+
   # Screenshot
  ![Screenshot of Terminal](./assets/images/cmd_b4T7dsb7BK.png)
   
