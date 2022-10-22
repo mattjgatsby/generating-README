@@ -66,7 +66,7 @@ function generateMarkdown(answers) {
   ${answers.credits}
 
   ## Author Links
-  GihubLink (https://github.com/${answers.github})
+  [GitHub](https://github.com/${answers.github})
   
 If you have any questions you can reach me at ${answers.email}.
 `;
