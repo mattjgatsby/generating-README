@@ -54,13 +54,6 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile('Gen-README.md', generateMarkdown(answers) , (err) => 
-//     err ? console.error(err) : console.log(data)
-// );
-// }
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers) => {

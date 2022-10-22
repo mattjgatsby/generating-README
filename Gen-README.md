@@ -2,19 +2,11 @@
   ## Description
   This app is a node based program that allows you to generate a readme file.  
 
-  # Screenshot
- ![Screenshot of Terminal](./assets/images/cmd_b4T7dsb7BK.png)
+  ## License
+  None
   
 
-  ## Code Snippet
-  This snippet shows the function used access inquirer as well as grab user information that 
-  generates a readme file.
-  ````
-  function init() {
-    inquirer.prompt(questions).then((answers) => {
-        fs.writeFile('Gen-README.md', generateMarkdown(answers) , (err) => 
-        err ? console.error(err) : console.log(answers)
-  ````
+  
 
   
   ## Table of Contents
@@ -31,6 +23,9 @@
   ## Usage
   Used to create a README.md file for your applications.
 
+  #Testing
+  N/A
+  
 
   ## Author Links
   [GitHub](https://github.com/mattjgatsby)
